@@ -11,7 +11,7 @@
 ###### MDAnalysis: pip install --user MDAnalysis[analysis] MDAnalysisTests
 ###### nglview: pip install nglview
 ###### scipy: pip install scipy
-###### matplotlin: pip install matplotlib
+###### matplotlib: pip install matplotlib
 
 ### Reading the pdb file
 ###### PDB file is read using the parsePDB() command from prody package and saved as structure for further analysis.
