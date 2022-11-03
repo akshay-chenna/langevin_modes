@@ -1,3 +1,18 @@
+### Packages to install
+#### Using Conda:-
+###### prody: conda install ProDy
+###### MDAnalysis:conda install mdanalysis
+###### nglview: conda install -c conda-forge nglview
+###### scipy: conda install -c anaconda scipy
+###### matplotlib: conda install -c conda-forge matplotlib
+
+#### Using pip:-
+###### prody: pip install -U ProDy
+###### MDAnalysis: pip install --user MDAnalysis[analysis] MDAnalysisTests
+###### nglview: pip install nglview
+###### scipy: pip install scipy
+###### matplotlin: pip install matplotlib
+
 ### Reading the pdb file
 ###### PDB file is read using the parsePDB() command from prody package and saved as structure for further analysis.
 
